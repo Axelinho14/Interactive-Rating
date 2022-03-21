@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon-32x32.png">
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Interactive Rating</title>
+</head>
+<body>
+    <main id="container">
+        <img id="star" src="image/icon-star.svg" alt="star icon">
+        <h1 id="title">How did we do?</h1>
+        <p id="desc">Please let us know how we did with your<br class="br2"> support<br class="br1"> request. All feedback is appreciated<br class="br2"> to help us<br class="br1"> improve our offering!</p>
+        <form id="notes">
+            <input type="radio" name="note" class="number" id="one" value="1">
+                <label for="one">1</label>
+            <input type="radio" name="note" class="number" id="two" value="2" >
+                <label for="two">2</label>
+            <input type="radio" name="note" class="number" id="three" value="3">
+                <label for="three">3</label>
+            <input type="radio" name="note" class="number" id="four" value="4" >
+                <label for="four">4</label>
+            <input type="radio" name="note" class="number" id="five" value="5" >
+                <label for="five">5</label>
+            <button type="submit" id="submit">submit</button>
+        </form>
+    </main>
+    <div id="container-after-submit">
+        <div id="div-illust">
+            <img id="illustration" src="image/illustration-thank-you.svg" alt="illustration thank you">
+        </div>
+        <p id="number-selected"></p>
+        <h1 id="title-after-submit">Thank you!</h1>
+        <p id="desc-after-submit">We appreciate you taking the time to give a<br class="br2"> rating.<br class="br1"> If you ever need more support, don’t<br class="br2"> hesitate to<br class="br1"> get in touch!</p>
+    </div>
+    
+</body>
+</html>
